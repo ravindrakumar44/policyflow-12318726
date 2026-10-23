@@ -1,0 +1,42 @@
+
+/.phpunit.cache
+/node_modules
+/public/build
+/public/hot
+/public/storage
+/storage/*.key
+/storage/pail
+/vendor
+
+# Environment files and secrets
+/.env
+/.env.*
+!/.env.example
+.env.backup
+.env.production
+
+# Local database files
+/database/*.sqlite
+/database/*.sqlite-*
+
+# IDE and editor files
+/.fleet
+/.idea
+/.nova
+/.vscode
+/.zed
+
+# Local development files
+Homestead.json
+Homestead.yaml
+auth.json
+.phpactor.json
+.phpunit.result.cache
+
+# Package manager logs
+npm-debug.log
+yarn-error.log
+
+# Operating system files
+.DS_Store
+Thumbs.db
